@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+body{
+	background-color: white;
+}
+#banner{
+	list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    background-color: #333333;
+    text-align: center;
+}
+.white{
+	color: white;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+}
+#greeting{
+	color: white;
+	font-size: 64px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	display: block;
+	text-decoration: none;
+	padding-top: 25%;
+	padding-left: 50%;
+}
+#description{
+	color: white;
+	font-size: 32px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 50%;
+}
+#Title{
+	color: white;
+	font-size: 64px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	display: block;
+	text-decoration: none;
+	padding-top: 35%;
+	padding-left: 10%;
+}
+#interests{
+	list-style-type: none;
+	color: white;
+	font-size: 32px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	display: block;
+	text-decoration: none;
+	padding-left: 10%;
+}
+.foreground{
+	height: 300px;
+	color: white;
+}
+#parallax1{ 
+    /* The image used */
+    background-image: url("Solitude.jpeg");
+
+    /* Set a specific height */
+    height: 1000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallax2{ 
+    background-image: url("Marvel.jpeg");
+    height: 1000px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li{
+	float: left;
+	padding: 16px;
+	padding-left: 32px;
+}
+li a:hover{
+	color: silver;
+}
+/*#firstImage{
+	display: block;
+	margin: auto;
+	padding-top: 128px;
+	width: 800px;
+	height: 465px;
+}
+#secondImage{
+	display: block;
+	margin: auto;
+	padding-top: 128px;
+	width: 800px;
+	height: 500px;
+}*/
