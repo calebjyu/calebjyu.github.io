@@ -2,6 +2,7 @@
 
 body{
 	background-color: white;
+	margin: 0;
 }
 #banner{
 	list-style-type: none;
@@ -51,6 +52,15 @@ body{
 	display: block;
 	text-decoration: none;
 	padding-left: 10%;
+}
+#experience{
+	color: #333333;
+	font-size: 64px;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 32px;
 }
 .foreground{
 	height: 300px;
