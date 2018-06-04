@@ -4,6 +4,40 @@ body{
 	background-color: white;
 	margin: 0;
 }
+li{
+	padding: 16px;
+	padding-left: 32px;
+	display: inline-block;
+}
+a:hover{
+	color: silver;
+}
+
+/* Classes */
+.white{
+	color: white;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+}
+.black{
+	color: #333333;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+}
+.sticky {//this is added to #banner when scrolling
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+.centered{
+	padding-left: 20%; 
+}
+
+/* IDs */
 #banner{
 	list-style-type: none;
     margin: auto;
@@ -11,12 +45,8 @@ body{
     background-color: #333333;
     text-align: center;
 }
-.white{
-	color: white;
-	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-	display: inline-block;
-	text-align: center;
-	text-decoration: none;
+#banner li{
+	float: left;
 }
 #greeting{
 	color: white;
@@ -53,6 +83,9 @@ body{
 	text-decoration: none;
 	padding-left: 10%;
 }
+#interests li{
+	float: left;
+}
 #experience{
 	color: #333333;
 	font-size: 64px;
@@ -60,11 +93,7 @@ body{
 	display: block;
 	text-decoration: none;
 	text-align: center;
-	padding-top: 32px;
-}
-.foreground{
-	height: 300px;
-	color: white;
+	padding: 32px;
 }
 #parallax1{ 
     /* The image used */
@@ -87,25 +116,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-li{
-	float: left;
-	padding: 16px;
-	padding-left: 32px;
+#foreground{
+	height: 450px;
+	color: white;
 }
-li a:hover{
-	color: silver;
-}
-/*#firstImage{
-	display: block;
-	margin: auto;
-	padding-top: 128px;
-	width: 800px;
-	height: 465px;
-}
-#secondImage{
-	display: block;
-	margin: auto;
-	padding-top: 128px;
-	width: 800px;
-	height: 500px;
-}*/
