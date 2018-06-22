@@ -28,13 +28,22 @@ a:hover{
 	text-align: center;
 	text-decoration: none;
 }
+.blackSubText{
+	color: #333333;
+	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	padding-left: 16px;
+}
 .sticky {//this is added to #banner when scrolling
   top: 0;
   width: 100%;
   position: fixed;
 }
 .centered{
-	padding-left: 20%; 
+	padding-left: 33%; 
 }
 
 /* IDs */
@@ -117,6 +126,6 @@ a:hover{
     background-size: cover;
 }
 #foreground{
-	height: 450px;
+	height: 500px;
 	color: white;
 }
