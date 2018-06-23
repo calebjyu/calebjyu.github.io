@@ -45,6 +45,11 @@ a:hover{
 .centered{
 	padding-left: 33%; 
 }
+.logo{
+	width: 32px;
+	height: 32px;
+	padding-right: 12px;
+}
 
 /* IDs */
 #banner{
