@@ -37,7 +37,7 @@ a:hover{
 	font-size: 20px;
 	padding-left: 16px;
 }
-.sticky {//this is added to #banner when scrolling
+.sticky { /*this is added to #banner when scrolling*/
   top: 0;
   width: 100%;
   position: fixed;
