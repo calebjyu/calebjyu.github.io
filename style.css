@@ -62,6 +62,9 @@ a:hover{
 #banner li{
 	float: left;
 }
+#banner_button{
+	background-color: #333333;
+}
 #greeting{
 	color: white;
 	font-size: 64px;
