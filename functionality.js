@@ -19,6 +19,11 @@ function setToMobile(){
 	var bannerItems = document.getElementById("banner").getElementsByTagName("li");
     for(var i=0;i<bannerItems.length;i++){
     	bannerItems[i].style.paddingLeft = "12px"
+    	if(bannerItems[i].getElementsByTagName("a").length > 0){
+    		bannerItems[i].getElementsByTagName("a")[0].style.fontSize = "14px";
+    	}else{
+    		bannerItems[i].style.fontSize = "14px";
+    	}
     }
     document.getElementById("parallax1").style.backgroundImage = "url('Stars.jpeg')";
     document.getElementById("parallax2").style.backgroundImage = "url('art.jpeg')";
@@ -44,7 +49,7 @@ function setToMobile(){
     var interests = document.getElementById("interests").getElementsByTagName("li");
     for(var i=0;i<interests.length;i++){
     	interests[i].getElementsByTagName("a")[0].className = "black";
-    	console.log(interests[i].getElementsByTagName("a")[0]);
+    	interests[i].getElementsByTagName("a")[0].style.fontSize = "24px";
     }
 }
 
