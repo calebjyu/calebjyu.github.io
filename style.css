@@ -35,6 +35,7 @@ a:hover{
 	text-align: center;
 	text-decoration: none;
 	font-size: 20px;
+	padding-top: 8px;
 	padding-left: 16px;
 }
 .sticky { /*this is added to #banner when scrolling*/
@@ -44,6 +45,9 @@ a:hover{
 }
 .centered{
 	padding-left: 33%; 
+}
+.centeredMobile{
+	padding-left: 2%; 
 }
 .logo{
 	width: 32px;
@@ -117,7 +121,7 @@ a:hover{
     background-image: url("Solitude.jpeg");
 
     /* Set a specific height */
-    height: 1000px; 
+    height: 750px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -127,13 +131,13 @@ a:hover{
 }
 #parallax2{ 
     background-image: url("Marvel.jpeg");
-    height: 1000px; 
+    height: 750px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #foreground{
-	height: 500px;
+	height: auto;
 	color: white;
 }
