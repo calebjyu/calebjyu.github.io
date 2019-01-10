@@ -21,7 +21,7 @@ function setToMobile(){
     	bannerItems[i].style.paddingLeft = "18px"
     }
     document.getElementById("parallax1").style.backgroundImage = "url('Stars.jpeg')";
-    document.getElementById("parallax2").style.backgroundImage = "url('Art.jpeg')";
+    document.getElementById("parallax2").style.backgroundImage = "url('art.jpeg')";
 
     document.getElementById("greeting").style.paddingLeft = "5%";
 
