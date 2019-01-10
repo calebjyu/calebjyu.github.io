@@ -71,7 +71,7 @@ a:hover{
 }
 #greeting{
 	color: white;
-	font-size: 64px;
+	font-size: 48px;
 	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	display: block;
 	text-decoration: none;
@@ -88,7 +88,7 @@ a:hover{
 }
 #Title{
 	color: white;
-	font-size: 64px;
+	font-size: 48px;
 	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	display: block;
 	text-decoration: none;
@@ -109,12 +109,12 @@ a:hover{
 }
 #experience{
 	color: #333333;
-	font-size: 64px;
+	font-size: 48px;
 	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	display: block;
 	text-decoration: none;
 	text-align: center;
-	padding: 32px;
+	padding-top: 16px;
 }
 #parallax1{ 
     /* The image used */

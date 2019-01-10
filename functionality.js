@@ -18,16 +18,16 @@ function stickyHeader() {
 function setToMobile(){
 	var bannerItems = document.getElementById("banner").getElementsByTagName("li");
     for(var i=0;i<bannerItems.length;i++){
-    	bannerItems[i].style.paddingLeft = "18px"
+    	bannerItems[i].style.paddingLeft = "12px"
     }
     document.getElementById("parallax1").style.backgroundImage = "url('Stars.jpeg')";
     document.getElementById("parallax2").style.backgroundImage = "url('art.jpeg')";
 
-    document.getElementById("greeting").style.paddingLeft = "5%";
+    document.getElementById("greeting").style.paddingLeft = "7%";
 
     var description = document.getElementById("description");
-    description.style.paddingLeft = "10%";
-    description.style.fontSize = "24px";
+    description.style.paddingLeft = "7%";
+    description.style.fontSize = "18px";
 
     var foreground = document.getElementById("foreground");
     //foreground.style.backgroundColor = "#333333";
@@ -37,9 +37,9 @@ function setToMobile(){
 
     var passion = document.getElementById("Title");
     passion.style.color = "#333333";
-    passion.style.paddingLeft = "2%";
+    passion.style.paddingLeft = "7%";
 
-    document.getElementById("interests").style.paddingTop = "15%";
+    //document.getElementById("interests").style.paddingTop = "5%";
     document.getElementById("interests").style.paddingLeft = "5%";
     var interests = document.getElementById("interests").getElementsByTagName("li");
     for(var i=0;i<interests.length;i++){
