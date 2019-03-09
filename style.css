@@ -44,14 +44,21 @@ a:hover{
   position: fixed;
 }
 .centered{
-	padding-left: 33%; 
+	margin: auto;
+	width: 45%;
+	padding: 10px;
+	padding-left: 10%;
+}
+.centered li{
+	margin: auto;
+	width: 80%;
 }
 .centeredMobile{
 	padding-left: 2%; 
 }
 .logo{
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 	padding-right: 12px;
 }
 
@@ -88,12 +95,14 @@ a:hover{
 }
 #Title{
 	color: white;
+	position: relative;
+	margin: auto;
 	font-size: 48px;
 	font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 	display: block;
 	text-decoration: none;
-	padding-top: 35%;
 	padding-left: 10%;
+	padding-top: 25%;
 }
 #interests{
 	list-style-type: none;
