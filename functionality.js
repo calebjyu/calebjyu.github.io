@@ -39,6 +39,7 @@ function setToMobile(){
     document.getElementById("expCentered").className = "centeredMobile";
 
     document.getElementById("linebr").insertBefore(document.createElement("br"), document.getElementById("linebr").childNodes[4]);
+    document.getElementById("linebr2").insertBefore(document.createElement("br"), document.getElementById("linebr2").childNodes[4]);
 
     var passion = document.getElementById("Title");
     //passion.style.color = "#333333";
